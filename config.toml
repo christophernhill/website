@@ -1,0 +1,111 @@
+baseurl = "http://projectnese.org/"
+languageCode = "en-us"
+title = "North East Storage Exchange"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "PROJECT NESE"
+	description = "Introducing The North East Storage Exchange"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Project NESE"
+		[params.navigation.links]
+			about     = "About"
+			services  = "Features"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Project NESE"
+		subtitle   = "Introducing The North East Storage Exchange"
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "The North East Storage Exchange Project"
+		description = "NESE will provide a high capacity, highly networked, secure, cost effective, scalable, and accessible data store that lowers barriers to research, collaboration, and information sharing within and beyond the participating multi-university community."
+
+ #		buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "NESE Features"
+
+        [[params.services.list]]
+            icon = "fa-shield"
+            title = "Secure"
+            description = "Secure data storage for research"
+
+        [[params.services.list]]
+	     icon = "fa-paper-plane"
+             title = "Fast"
+	     description = "Low Latency, high bandwidth"
+
+	[[params.services.list]]
+            icon = "fa-arrows-alt"
+            title = "High Capacity"
+            description = "Unlimited Research Storage"
+
+        [[params.services.list]]
+            icon = "fa-file-archive-o"
+            title = "Archive"
+            description = "Safe and Reliable Storage"
+
+        [[params.services.list]]
+            icon = "fa-usd"
+            title = "Low Cost"
+            description = "Reducing the cost to our scientists and researchers"
+
+        [[params.services.list]]
+            icon = "fa-globe"
+            title = "Local Support"
+            description = "Regional Hub with Local Experts"
+
+
+
+
+    # Aside section
+#	[params.aside]
+#		headline = "News"
+
+#		[params.aside.button]
+#			text = "Download now"
+#			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Follow us on twitter"
+		twitter = "projectnese"
+		email = "info@projectnese.org"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "42.359968"
+	# 	longitude = "-71.060093"
+	# 	maps_api_key = ""
